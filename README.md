@@ -1,1 +1,1 @@
-https://github.com/Temasevastopol/online-zoo/tree/gh-pages/main/index.html
+https://temasevastopol.github.io/online-zoo/main/
