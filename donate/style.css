@@ -59,6 +59,7 @@
 }
 .nav-items li a{
     text-decoration: none; 
+    position: relative;
 }
 .nav-items li a,
 .header-wrapper span{
@@ -69,6 +70,9 @@
     line-height: 140%;
     /* or 22px */
     color: #FFFFFF;
+}
+.nav-items li a:hover{
+    color: #FE9013;
 }
 .nav-items li a::before{
     content: '';
