@@ -531,32 +531,162 @@
 .section-wrapper-5 {
     width: 1600px;
     height: 919px;
+    padding-top: 140px;
     margin: auto;
 }
-.sec_5-block-item {
+.section-wrapper-5 h3{
+    width: 206px;
+    height: 47px;
+    margin:auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+    text-align: center;
+    color: #333B41;
 }
+
 .sec_5-block-card {
+    width: 1158px;
+    height: 391px;
+    margin: 47px auto 0px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 30px;
+    overflow: hidden;
 }
-.card {
+/* Градиент взорвал мозг */
+.sec_5-block-card .card {
+    width: 266px;
+    height: 391px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 16px;
+    border: solid 2px transparent; 
+    background: linear-gradient(#FEBDAB 74%, #F3A9F8 66%, #E0D8F0 100%, #EAF7FE 100%, #EAF7FE 100%);
+    box-shadow: inset 0px 0px 0px 100vw #F1F3F2; 
+    border-radius: 20px;
+    overflow: hidden;
 }
 .icon {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;    
 }
-.info {
+.icon_1{
+    background-image: url(../assets/img/icon/icon_1.svg);
+}
+.icon_2{
+    background-image: url(../assets/img/icon/icon_2.png);
+}
+.icon_3{
+    background-image: url(../assets/img/icon/icon_3.png);
+}
+.icon_4{
+    background-image: url(../assets/img/icon/icon_4.png);
+}
+.info{
+    width: 160px;
+    margin-left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 .name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    color: #000000;
 }
 .location {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */    
+    /* Gray 4 */    
+    color: #BDBDBD;
 }
 .dot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    /* Gray 4 */
+    color: #BDBDBD;
 }
 .day {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+.sec_5-block-card .card p{
+    width: 237px;
+    height: 309px;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* or 18px */
+    /* gray */
+    color: #767474;
 }
 .scrool-line {
+    display: block;
+    width: 599px;
+    height: 8px;
+    margin: 21px auto 31px;
+    background: #F5F7F6;
+    border: solid 0.5px transparent; 
+    background: linear-gradient(#FEBDAB 74%, #F3A9F8 66%, #E0D8F0 100%, #EAF7FE 100%, #EAF7FE 100%);
+    box-shadow: inset 0px 0px 0px 100vw #F5F7F6; 
+    border-radius: 5px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[name="range"]::-webkit-slider-thumb{
+    width: 115.19px;
+    height: 6px;
+    background: #FE9013;
+    border-radius: 5px;
 }
 .testimonials-btn {
+    width: 298px;
+    height: 54px;    
+    margin-left: 220px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
 }
-.btn {
-}
+
 /* --------------------FOOTER */
 .footer-wrapper{
     width: 1600px;
