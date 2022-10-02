@@ -60,6 +60,9 @@
 .nav-items li{
     list-style: none;
 }
+.nav-items li:first-of-type a{
+    color: #FE9013;
+}
 .nav-items li:hover{
     color: #FE9013;
 }
@@ -138,7 +141,7 @@
     .logo-bambo{
        top:8px;
        left:1px;
-       transform: scale(80%);
+       transform: scale(70%);
     }
     .header-wrapper span, 
     nav{
