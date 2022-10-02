@@ -1,0 +1,13 @@
+/* --------- style for button--------- */
+.btn:hover{
+    color:#FE9013;
+    background: rgba(255, 255, 255, 0.6);
+    border: goldenrod solid 2px;    
+    transition: all ease 0.5s;
+}
+.left-btn:hover,
+.right-btn:hover{
+    outline: #5a5748 solid 3px;
+    outline-offset: 3px;
+    transition: all ease .3s;
+}
