@@ -1,9 +1,10 @@
 /* ------------HEADER------------- */
 .header-wrapper {
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     height: 80px;
     margin: auto;
-    padding-left: 220px;
+    
     display: flex;
     align-items: center;
     background: #000000;
@@ -14,6 +15,7 @@
     display: block;
     width: 82px;
     height: 52px;
+    margin-left: 13.75%;
     border: 1px solid #FFFFFF;   
     text-align: center;
     cursor: pointer;
@@ -31,7 +33,7 @@
     color: #FFFFFF;
 }
 .logo-bambo{
-    background-image: url(/assets/img/svg/bamboo.svg);
+    background-image: url(../../assets/img/svg/bamboo.svg);
     background-repeat: no-repeat;
     position: absolute;
     width: 12.03px;
@@ -99,5 +101,70 @@
 
 .header-wrapper span{
     margin-left: auto;    
-    margin-right: 220px;
+    margin-right: 13.75%;
+}
+.burger{
+    display: none;
+}
+@media(max-width:1000px){
+    .header-wrapper{
+        width: 1000px;
+    }
+    .logo{
+        margin-left: 3%;
+    }
+    .header-wrapper span{
+        margin-right: 3%;
+    }
+}
+@media(max-width:640px){
+    .header-wrapper{
+        width: 640px;
+        height:34px;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 46.93px;
+        height: 29.03px;
+        border: none;
+        margin-left: 3.12%;
+    }
+    .logo-text{
+        font-size: 12.2899px;
+        line-height: 120%;
+        /* or 15px */
+        text-align: center;
+    }
+    .logo-bambo{
+       top:8px;
+       left:1px;
+       transform: scale(80%);
+    }
+    .header-wrapper span, 
+    nav{
+        display:none;
+    }
+    .burger{
+        display:block;
+        width: 18px;
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 3.12%;
+        cursor:pointer;
+    }
+    .burger span{
+        display: block;
+        width: 18px;
+        height: 2px;
+        background: #FFFFFF;
+        border-radius: 2px;
+    }
+
+}
+@media(max-width:320px){
+    .header-wrapper{
+        width: 320px;
+    }
 }
