@@ -10,10 +10,13 @@
     backdrop-filter: blur(2px);
 }
 .logo {
+    text-decoration: none;
+    display: block;
     width: 82px;
     height: 52px;
     border: 1px solid #FFFFFF;   
     text-align: center;
+    cursor: pointer;
     position: relative;
 }
 .logo-text{
@@ -28,7 +31,7 @@
     color: #FFFFFF;
 }
 .logo-bambo{
-    background-image: url(../assets/img/svg/bamboo.svg);
+    background-image: url(/assets/img/svg/bamboo.svg);
     background-repeat: no-repeat;
     position: absolute;
     width: 12.03px;
@@ -39,6 +42,10 @@
     /* background: transparent; */
     /* border: 1.18841px solid #FFFFFF;  */
     /* transform: matrix(-0.9, 0.52, 0.4, 0.88, 0, 0); */
+}
+.logo:hover{
+    border: 1px solid #FE9013;
+    transition: ease 0.3s;
 }
 .navigation{
     width: 535px;

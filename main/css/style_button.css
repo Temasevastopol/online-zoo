@@ -1,4 +1,7 @@
 /* --------- style for button--------- */
+.btn{
+    cursor: pointer;
+}
 .btn:hover{
     color:#FE9013;
     background: rgba(255, 255, 255, 0.6);
