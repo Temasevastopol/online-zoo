@@ -2,7 +2,7 @@
     width: 1600px;
     height: 700px;
     margin: auto;
-    background-image: url(../assets/img/Giant\ Panda.png);
+    background-image: url(/assets/img/Giant_Panda.png);
     background-position: 0 -80px;
     padding: 86px 219.69px 100px 880px;    
     display: flex;

@@ -1,12 +1,12 @@
-@import url(./normalize.css);
-@import url(./header.css);
-@import url(./section-1.css);
-@import url(./section-2.css);
-@import url(./section-3.css);
-@import url(./section-4.css);
-@import url(./section-5.css);
-@import url(./footer.css);
-@import url(./style_button.css);
+@import url(../main/css/normalize.css);
+@import url(../main/css/header.css);
+@import url(../main/css/section-1.css);
+@import url(../main/css/section-2.css);
+@import url(../main/css/section-3.css);
+@import url(../main/css/section-4.css);
+@import url(../main/css/section-5.css);
+@import url(../main/css/footer.css);
+@import url(../main/css/style_button.css);
 
 
 

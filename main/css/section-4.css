@@ -105,18 +105,18 @@
     border-radius: 5px;
 }
 .block-item .card .foto-1{
-    background: url(../assets/img/svg/pay.svg) no-repeat center, #ffff;
+    background: url(/assets/img/svg/pay.svg) no-repeat center, #ffff;
 }
 .block-item .card .foto-2{
-    background: url(../assets/img/svg/zoo.svg) no-repeat center, #ffff;
+    background: url(/assets/img/svg/zoo.svg) no-repeat center, #ffff;
 }
 .block-item .card .foto-3{
-    background: url(../assets/img/svg/monkey.svg) no-repeat center, #ffff;
+    background: url(/assets/img/svg/monkey.svg) no-repeat center, #ffff;
 }
 .block-item .arrow {
     width:130px;
     height: 244px;
-    background: url(../assets/img/svg/Vector.svg) no-repeat center 50px;
+    background: url(/assets/img/svg/Vector.svg) no-repeat center 50px;
 }
 .block-how-it-works .block-item .card span{
     display: block;

@@ -48,16 +48,16 @@
     border-radius: 50%;    
 }
 .icon_1{
-    background-image: url(../assets/img/icon/icon_1.svg);
+    background-image: url(/assets/img/icon/icon_1.svg);
 }
 .icon_2{
-    background-image: url(../assets/img/icon/icon_2.png);
+    background-image: url(/assets/img/icon/icon_2.png);
 }
 .icon_3{
-    background-image: url(../assets/img/icon/icon_3.png);
+    background-image: url(/assets/img/icon/icon_3.png);
 }
 .icon_4{
-    background-image: url(../assets/img/icon/icon_4.png);
+    background-image: url(/assets/img/icon/icon_4.png);
 }
 .info{
     width: 160px;
