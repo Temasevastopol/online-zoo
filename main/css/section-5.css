@@ -3,6 +3,17 @@
     height: 919px;
     padding-top: 140px;
     margin: auto;
+    position: relative;
+}
+.section-wrapper-5::after{
+    content: "";
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-image: url(/assets/img/leav_foto.png);
+    background-repeat: no-repeat;
+    top: calc(100% - 300px);
+    right: 0%;
 }
 .section-wrapper-5 h3{
     width: 206px;
