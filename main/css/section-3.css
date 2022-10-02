@@ -17,7 +17,7 @@
     width: 62px;
     height: 62px;
     border-radius: 50%;
-    background: url(/assets/img/svg/arrow.svg) no-repeat center, linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    background: url(../../assets/img/svg/arrow.svg) no-repeat center, linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
 .left-btn{
     transform: rotateZ(180deg);
@@ -44,7 +44,7 @@
     width: 33px ;
     height: 37px;
     position: absolute;
-    background-image: url(/assets/img/banana-bamboo_icon.png);
+    background-image: url(../../assets/img/banana-bamboo_icon.png);
     top:calc(100% - 50px);
     left:calc(100% - 46px)
 }
@@ -56,7 +56,7 @@
     width: 48px ;
     height: 38px;
     position: absolute;
-    background-image: url(/assets/img/meet-fish_icon.png);
+    background-image: url(../../assets/img/meet-fish_icon.png);
     top:calc(100% - 50px);
     left:calc(100% - 49px)
 }
@@ -64,22 +64,22 @@
     height: 366px;
 }
 .card .foto-1{
-    background-image: url(/assets/img/slider/foto-1.png);
+    background-image: url(../../assets/img/slider/foto-1.png);
 }
 .card .foto-2{
-    background-image: url(/assets/img/slider/foto-2.png);
+    background-image: url(../../assets/img/slider/foto-2.png);
 }
 .card .foto-3{
-    background-image: url(/assets/img/slider/foto-3.png);
+    background-image: url(../../assets/img/slider/foto-3.png);
 }
 .card .foto-4{
-    background-image: url(/assets/img/slider/foto-4.png);
+    background-image: url(../../assets/img/slider/foto-4.png);
 }
 .card .foto-5{
-    background-image: url(/assets/img/slider/foto-5.png);
+    background-image: url(../../assets/img/slider/foto-5.png);
 }
 .card .foto-6{
-    background-image: url(/assets/img/slider/foto-6.png);
+    background-image: url(../../assets/img/slider/foto-6.png);
 }
 .card h4{
     width: 294px;
@@ -133,7 +133,7 @@
     position: absolute;
     top: calc(100% - 460px);
     /* left:-588px; */
-    background-image: url(/assets/img/palm_foto.png);
+    background-image: url(../../assets/img/palm_foto.png);
     background-repeat: no-repeat;
     z-index: 10;
 }
@@ -144,7 +144,7 @@
     position: absolute;
     top: calc(100% - 275px);
     left: calc(100% - 368px);
-    background-image: url(/assets/img/strelitzia\ 1.png);
+    background-image: url(../../assets/img/strelitzia\ 1.png);
     background-repeat: no-repeat;
     z-index: 10;
 }
